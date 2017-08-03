@@ -1,0 +1,84 @@
+body {
+  background: url("./images/pinky-brain-pinky-and-the-brain-breaking-bad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#root{
+  background-color: black;
+  opacity: 0.8;
+}
+.app{
+  padding: 0 10px 10px 10px;
+  color: white;
+}
+.app h1{
+  color: yellow;
+  text-align: center;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.pinky-quote{
+  text-align: left;
+}
+.pinky-quote img{
+  height: 50px;
+  float: left;
+}
+.pinky-quote p{
+  float: left;
+}
+
+.the-brain-quote{
+  text-align: right;
+}
+.the-brain-quote img{
+  height: 50px;
+  float: right;
+}
+.the-brain-quote p{
+  float: right;
+}
+
+.item-receiver{
+  text-align: center;
+}
+.item-receiver input{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid white;
+  color: white;
+  width: 500px;
+}
+
+.shopping-list{
+  text-align: center;
+}
+
+.shopping-list ul{
+  padding-left: 0;
+  color: white;
+  list-style: none;
+}
+
+.eraser{
+  text-align: center;
+  margin-top: 10px;
+}
+.eraser button{
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.list-item{
+  margin: 10px;
+}
+.list-item:hover{
+  text-decoration: line-through;
+  color: red;
+  cursor: pointer;
+}
